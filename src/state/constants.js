@@ -1,0 +1,6 @@
+export const CATEGORY_CHANGE = "CATEGORY_CHANGE";
+export const SEARCH_CHANGE = "SEARCH_CHANGE";
+
+export const ADD_CART = "ADD_CART";
+export const SUBSTRACT_CART = "SUBSTRACT_CART";
+export const TOGGLE_DRAWER = "TOGGLE_DRAWER";
