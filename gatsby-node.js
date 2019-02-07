@@ -32,7 +32,7 @@ exports.createPages = ({ graphql, actions }) => {
       result.data.allProductsJson.edges.forEach(({ node }) => {
         createPage({
           path: `/product/${node.id}`, 
-          component: path.resolve('src/templates/productPage.js'), 
+          component: path.resolve('src/templates/ProductPage.js'), 
           context: {
             product: node
           },
