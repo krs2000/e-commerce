@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 class ProductPageTemplate extends React.PureComponent {
   render() {
-    const product = this.props.pathContext.product;
+    const product = this.props.pageContext.product;
     return (
       <Layout>      <div>
         {/* <Helmet title={slug} /> */}
